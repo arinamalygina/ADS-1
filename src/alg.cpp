@@ -18,9 +18,9 @@ uint64_t nPrime(uint64_t n) {
     bool is_prime = checkPrime(i);
     if (is_prime == true) {
       k++;
-      if (k == n)
-        ;
-      return i;
+      if (k == n){
+        return i;
+      }
     }
   }
 }
